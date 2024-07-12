@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "团队明细",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "empty": "/components/empty",
+    "loading-box": "/components/loading-box",
+    "loading-tip": "/components/loading-tip"
+  }
+}

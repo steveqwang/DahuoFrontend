@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "筛选",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "form-row": "/pagesActivity/components/form-row",
+    "form-box": "/pagesActivity/components/form-box",
+    "slider-box": "/pagesActivity/components/slider-box"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "收益详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "loading-box": "/components/loading-box"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "tabs": "/components/tabs",
+    "info-row": "/components/info-row",
+    "loading-tip": "/components/loading-tip",
+    "float-add": "/components/float-add",
+    "empty": "/components/empty",
+    "select-box": "/components/select-box",
+    "city-options": "/components/city-options/index",
+    "price-range": "/components/price-range",
+    "loading-box": "/components/loading-box"
+  }
+}

@@ -1,0 +1,60 @@
+	// 公共样式
+	page{
+		background: #F6F6F6;
+		font-size: 24rpx;
+		color: #121212;
+		font-family: PingFang HK, PingFang HK-Regular;
+	}
+	/*每个页面公共css */
+	button[loading]::before{
+		align-self:center
+	}
+	button{
+		display: flex;
+		justify-content: center;
+		align-item:center;
+		padding: 0;
+		border-radius: 0;
+		font-weight: 400;
+	}
+	button::after{
+		border: none;
+	}
+	.placeholder{
+		font-size: 30rpx;
+		// font-family: PingFangSC-Medium;
+		text-align: left;
+		color: #999999;
+		line-height: 42rpx;
+	}
+	.clearfix:after{
+	    content:"";
+	    display:block;
+	    visibility:hidden;
+	    clear:both;
+	}
+	
+	@keyframes shakeX {
+	
+		from,
+		to {
+			transform: translate3d(0, 0, 0);
+		}
+	
+		10%,
+		30%,
+		50%,
+		70%,
+		90% {
+			transform: translate3d(-0.2rem, 0, 0);
+		}
+	
+		20%,
+		40%,
+		60%,
+		80% {
+			transform: translate3d(0.2rem, 0, 0);
+		}
+	}
+	
+	

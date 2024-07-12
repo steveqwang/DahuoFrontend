@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "登录",
+  "usingComponents": {
+    "u-popup": "/components/u-popup"
+  }
+}

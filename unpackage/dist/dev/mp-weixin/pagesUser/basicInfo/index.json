@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-popup": "/components/u-popup",
+    "picker-date": "/pagesUser/components/picker-date",
+    "user-bg-img": "/components/user-bgImg",
+    "city-options": "/components/city-options/index"
+  }
+}

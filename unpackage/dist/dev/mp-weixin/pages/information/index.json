@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "消息中心",
+  "usingComponents": {
+    "empty": "/components/empty",
+    "loading-box": "/components/loading-box",
+    "loading-tip": "/components/loading-tip"
+  }
+}

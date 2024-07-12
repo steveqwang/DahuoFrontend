@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "选择模版",
+  "usingComponents": {
+    "empty": "/components/empty",
+    "loading-box": "/components/loading-box",
+    "loading-tip": "/components/loading-tip",
+    "tabs": "/components/tabs"
+  }
+}

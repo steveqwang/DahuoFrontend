@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tabs": "/components/tabs",
+    "info-row": "/components/info-row2",
+    "loading-tip": "/components/loading-tip",
+    "empty": "/components/empty",
+    "loading-box": "/components/loading-box"
+  }
+}

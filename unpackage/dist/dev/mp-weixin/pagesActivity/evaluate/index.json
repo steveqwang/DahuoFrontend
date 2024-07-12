@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "评价列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "empty": "/components/empty",
+    "loading-box": "/components/loading-box",
+    "loading-tip": "/components/loading-tip",
+    "evaluate-box": "/components/evaluate",
+    "evaluate": "/pagesActivity/components/evaluate"
+  }
+}

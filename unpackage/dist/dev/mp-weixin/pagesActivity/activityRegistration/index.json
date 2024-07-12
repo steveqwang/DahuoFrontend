@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "活动报名",
+  "usingComponents": {
+    "form-row": "/pagesActivity/components/form-row",
+    "joined-successfully": "/pagesActivity/components/joined-successfully",
+    "form-box": "/pagesActivity/components/form-box"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "退出活动",
+  "usingComponents": {
+    "form-row": "/pagesActivity/components/form-row",
+    "form-box": "/pagesActivity/components/form-box"
+  }
+}

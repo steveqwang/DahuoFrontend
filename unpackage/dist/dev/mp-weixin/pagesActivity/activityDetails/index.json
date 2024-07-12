@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "活动详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "loading-box": "/components/loading-box",
+    "empty": "/components/empty",
+    "info-row": "/components/info-row",
+    "evaluate": "/pagesActivity/components/evaluate",
+    "more-features": "/pagesActivity/components/more-features",
+    "share-box": "/pagesActivity/components/share-box"
+  }
+}

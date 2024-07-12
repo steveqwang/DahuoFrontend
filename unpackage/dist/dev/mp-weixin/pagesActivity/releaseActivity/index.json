@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "form-row": "/pagesActivity/components/form-row",
+    "form-box": "/pagesActivity/components/form-box",
+    "datetime": "/pagesActivity/components/datetime",
+    "loading-box": "/components/loading-box"
+  }
+}

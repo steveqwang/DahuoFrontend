@@ -1,0 +1,10 @@
+
+.datetime.data-v-1024f4cc {
+	min-width: 200rpx;
+	min-height: 50rpx;
+}
+.datetime-text.data-v-1024f4cc {
+	color: #888A88;
+	padding: 10rpx;
+}
+

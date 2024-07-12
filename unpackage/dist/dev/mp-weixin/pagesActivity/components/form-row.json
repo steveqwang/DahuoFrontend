@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "city-options": "/components/city-options/index"
+  }
+}

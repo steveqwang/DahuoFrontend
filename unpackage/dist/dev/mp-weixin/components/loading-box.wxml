@@ -1,0 +1,1 @@
+<view class="{{['loading-box','data-v-22f152cf',type]}}"><image src="../static/img/fire02.png" mode="aspectFit" class="data-v-22f152cf"></image><text class="data-v-22f152cf">{{text}}</text><view class="progress data-v-22f152cf" style="{{'--width:'+(progress*100+'%')+';'}}"></view></view>

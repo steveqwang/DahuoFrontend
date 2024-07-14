@@ -160,6 +160,8 @@
 			width: 50rpx;
 			height: 50rpx;
 			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
 		}
 
 		.create-button {

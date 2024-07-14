@@ -1,7 +1,7 @@
 import App from './App'
 
 import store from './store/index.js';
-import upload from './utils/upload.js'
+import upload from './utils/upload.js';
 import { userAvatar } from './utils/global.js'
 
 Vue.prototype.$store = store;

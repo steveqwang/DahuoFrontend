@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/index",
     "pages/information/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/profile/index"
   ],
   "subPackages": [
     {
@@ -88,6 +89,12 @@
       },
       {
         "pagePath": "pages/my/index",
+        "iconPath": "static/icon/tabbar03.png",
+        "selectedIconPath": "static/icon/tabbar03_active.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/profile/index",
         "iconPath": "static/icon/tabbar03.png",
         "selectedIconPath": "static/icon/tabbar03_active.png",
         "text": ""

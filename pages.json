@@ -20,6 +20,14 @@
 				"navigationStyle": "custom",
 				"enablePullDownRefresh": true
 			}
+		},
+		{
+			"path" : "pages/profile/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
 		}
 	],
 	"subPackages": [
@@ -317,6 +325,12 @@
 				},
 				{
 					"pagePath": "pages/my/index",
+					"iconPath": "static/icon/tabbar03.png",
+					"selectedIconPath": "static/icon/tabbar03_active.png",
+					"text": ""
+				},
+				{
+					"pagePath": "pages/profile/index",
 					"iconPath": "static/icon/tabbar03.png",
 					"selectedIconPath": "static/icon/tabbar03_active.png",
 					"text": ""

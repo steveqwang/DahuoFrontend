@@ -14200,6 +14200,46 @@ module.exports = _iterableToArrayLimit, module.exports.__esModule = true, module
 
 /***/ }),
 
+/***/ 733:
+/*!************************************************************!*\
+  !*** /Users/boleyn/Downloads/build-fire/utils/toBase64.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(wx) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.urlToBase64 = void 0;
+//解决小程序端真机图片不展示
+/**
+ * 获取本地图
+ * @param folder // 文件夹名字 如 /static/images/home
+ * @param fileName // 文件名 如 home-bg
+ * @param format // 文件类型 如 png jpg
+ * @returns {*|string}
+ */
+
+var urlToBase64 = function urlToBase64(folder, fileName) {
+  var format = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "png";
+  console.log('urlTobase64   ');
+  var img = "@/static/".concat(folder, "/").concat(fileName, ".").concat(format);
+  console.log('bolin --- img', img);
+  // 如果是微信小程序环境，返回base64Url
+  // #ifdef MP-WEIXIN
+  var imgBase64 = wx.getFileSystemManager().readFileSync(img, "base64"),
+    base64Url = "data:image/png;base64,".concat(imgBase64);
+  console.log('bolin -- base64Url ', base64Url);
+  return base64Url;
+};
+exports.urlToBase64 = urlToBase64;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
+
+/***/ }),
+
 /***/ 8:
 /*!***************************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js ***!

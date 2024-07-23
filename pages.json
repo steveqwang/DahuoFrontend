@@ -1,358 +1,350 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/home/index",
-			"style": {
-				"navigationBarTitleText": "首页",
-				"navigationStyle": "custom"
-			}
-		},
-		{
-			"path": "pages/information/index",
-			"style": {
-				"navigationBarTitleText": "消息中心"
-			}
-		},
-		{
-			"path": "pages/my/index",
-			"style": {
-				"navigationBarTitleText": "",
-				"navigationStyle": "custom",
-				"enablePullDownRefresh": true
-			}
-		},
-		{
-			"path" : "pages/profile/index",
-			"style" : 
-			{
-				"navigationBarTitleText" : "",
-				"navigationStyle": "custom"
-			}
-		}
-	],
-	"subPackages": [
-		{
-				"root": "pagesActivity",
-				"name": "pagesActivity",
-				"pages": [{
-						"path": "activityDetails/index",
-						"style": {
-							"navigationBarTitleText": "活动详情",
-							"navigationStyle": "custom"
-						}
-						
-					},
-					{
-						"path" : "neighbour/index",
-						"style" : 
-						{
-							"navigationStyle": "custom"
-						}
-					},
-					{
-							"path": "askBlogger/index",
-							"style": {
-								"navigationBarTitleText": "问博主",
-								"enablePullDownRefresh": true
-							}
-					},
-					{
-							"path": "evaluate/index",
-							"style": {
-								"navigationBarTitleText": "评价列表",
-								"enablePullDownRefresh": true
-							}
-					},
-					{
-							"path": "participants/index",
-							"style": {
-								"navigationBarTitleText": "活动参与者",
-								"enablePullDownRefresh": true
-							}
-					},
-					{
-						"path" : "report/index",
-						"style" : 
-						{
-							"navigationBarTitleText" : "举报"
-						}
-					},
-					{
-						"path" : "poster/index",
-						"style" : 
-						{
-							"navigationStyle": "custom"
-						}
-					},
-					{
-						"path" : "activityRegistration/index",
-						"style" : 
-						{
-							"navigationBarTitleText" : "活动报名"
-						}
-					},
-					{
-						"path" : "exitActivity/index",
-						"style" : 
-						{
-							"navigationBarTitleText" : "退出活动"
-						}
-					},
-					{
-						"path" : "findPartner/index",
-						"style" : 
-						{
-							"navigationBarTitleText" : "立即找搭子"
-						}
-					},
-					{
-						"path" : "findPartner/seek",
-						"style" : 
-						{
-							"navigationStyle": "custom"
-						}
-					},
-					{
-						"path" : "selectTemplate/index",
-						"style" : 
-						{
-							"navigationBarTitleText" : "选择模版"
-						}
-					},
-					{
-						"path" : "selectTemplate/filter",
-						"style" : 
-						{
-							"navigationBarTitleText" : "筛选"
-						}
-					},
-					{
-						"path" : "releaseActivity/index",
-						"style" : 
-						{
-						}
-					},
-					{
-						"path" : "releaseActivity/success",
-						"style" : 
-						{
-							"navigationBarTitleText" : "发布成功"
-						}
-					}
-				]
-			},
-			{
-				"root": "pagesInfo",
-				"name": "pagesInfo",
-				"pages": [{
-						"path": "messageDetails/index",
-						"style": {
-							"navigationBarTitleText": "消息详情"
-						}
-					},
-					{
-							"path": "chat/index",
-							"style": {
-								"navigationBarTitleText": "活动"
-							}
-						},
-					{
-							"path": "fileDetails/index",
-							"style": {
-								"navigationBarTitleText": ""
-							}
-					}
-					
-				]
-			},
-			{
-			"root": "pagesUser",
-			"name": "pagesUser",
-			"pages": [{
-					"path": "login/index",
-					"style": {
-						"navigationBarTitleText": "登录"
-					}
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/home/index",
+            "style" : {
+                "navigationBarTitleText" : "首页",
+                "navigationStyle" : "custom",
+                "enablePullDownRefresh" : true
+            }
+        },
+        {
+            "path" : "pages/profile/index",
+            "style" : {
+                "navigationBarTitleText" : "超级名片",
+                "navigationStyle" : "custom"
+            }
+        },
+				{
+				    "path" : "pages/profile/guide",
+				    "style" : {
+				        "navigationBarTitleText" : "超级名片引导",
+								"navigationStyle": "custom"
+				    }
 				},
-				{
-					"path": "improveInfo/index",
-					"style": {
-						"navigationBarTitleText": "完善信息"
-					}
-				},
-				{
-					"path" : "basicInfo/index",
-					"style" : 
-					{
-						"navigationStyle": "custom"
-					}
-				},
-				{
-					"path" : "follow/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "关注列表",
-						"enablePullDownRefresh": true
-					}
-				},
-				{
-					"path" : "fans/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "粉丝列表",
-						"enablePullDownRefresh": true
-					}
-				},
-				{
-					"path" : "purchaseMembership/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "购买会员"
-					}
-				},
-				{
-					"path" : "collection/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "我的收藏",
-						"enablePullDownRefresh": true
-					}
-				},
-				{
-					"path" : "income/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "我的收益",
-						"enablePullDownRefresh": true
-					}
-				},
-				{
-					"path" : "income/details",
-					"style" : 
-					{
-						"navigationBarTitleText" : "收益详情",
-						"enablePullDownRefresh": true
-					}
-				},
-				{
-					"path" : "income/cashOut",
-					"style" : 
-					{
-						"navigationBarTitleText" : "提现"
-					}
-				},
-				{
-					"path" : "income/success",
-					"style" : 
-					{
-						"navigationBarTitleText" : "申请成功"
-					}
-				},
-				{
-					"path" : "teamDetails/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "团队明细",
-						"enablePullDownRefresh": true
-					}
-				},
-				{
-					"path" : "couponCenter/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "卡券中心",
-						"enablePullDownRefresh": true
-					}
-				},
-				{
-					"path" : "setUp/index",
-					"style" : 
-					{
-						"navigationBarTitleText" : "设置"
-					}
-				},
-				{
-					"path" : "setUp/authentication",
-					"style" : 
-					{
-						"navigationBarTitleText" : "实名认证"
-					}
-				},
-				{
-					"path" : "enterPlatform/index",
-					"style" : 
-					{
-						"navigationStyle": "custom"
-					}
-				},
-				{
-					"path" : "invite/index",
-					"style" : 
-					{
-						"navigationStyle": "custom"
-					}
-				}, 
-				{
-					"path" : "invite/promotionRules",
-					"style" : 
-					{
-						"navigationBarTitleText": "晋升规则"
-					}
-				}
-				
-			]
-			
-		}
-		],
-		"tabBar": {
-			"color": "#CDCFCF",
-			"selectedColor": "#F9475C",
-			"borderStyle": "black",
-			"backgroundColor": "#FFFFFF",
-			"height": "60px",
-			"iconWidth": "34px",
-			"list": [{
-					"pagePath": "pages/home/index",
-					"iconPath": "static/icon/tabbar01.png",
-					"selectedIconPath": "static/icon/tabbar01_active.png",
-					"text": ""
-				},
-				{
-					"pagePath": "pages/information/index",
-					"iconPath": "static/icon/tabbar02.png",
-					"selectedIconPath": "static/icon/tabbar02_active.png",
-					"text": ""
-				},
-				{
-					"pagePath": "pages/my/index",
-					"iconPath": "static/icon/tabbar03.png",
-					"selectedIconPath": "static/icon/tabbar03_active.png",
-					"text": ""
-				},
-				{
-					"pagePath": "pages/profile/index",
-					"iconPath": "static/icon/tabbar03.png",
-					"selectedIconPath": "static/icon/tabbar03_active.png",
-					"text": ""
-				}
-			]
-		},
-
-		"globalStyle": {
-			"navigationBarTextStyle": "black",
-			"navigationBarTitleText": "搭火",
-			"navigationBarBackgroundColor": "#FFFFFF",
-			"backgroundColor": "#FFFFFF"
-		},
-		"uniIdRouter": {},
-	"condition" : { //模式配置，仅开发期间生效
-		"current": 0, //当前激活的模式(list 的索引项)
-		"list": [
-			{
-				"name": "", //模式名称
-				"path": "", //启动页面，必选
-				"query": "" //启动参数，在页面的onLoad函数里面得到
-			}
-		]
-	}
-	}
+        {
+            "path" : "pages/information/index",
+            "style" : {
+                "navigationBarTitleText" : "消息中心"
+            }
+        },
+        {
+            "path" : "pages/my/index",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "navigationStyle" : "custom",
+                "enablePullDownRefresh" : true
+            }
+        }
+    ],
+    "subPackages" : [
+        {
+            "root" : "pagesActivity",
+            "name" : "pagesActivity",
+            "pages" : [
+                {
+                    "path" : "activityDetails/index",
+                    "style" : {
+                        "navigationBarTitleText" : "活动详情",
+                        "navigationStyle" : "custom"
+                    }
+                },
+                {
+                    "path" : "neighbour/index",
+                    "style" : {
+                        "navigationStyle" : "custom"
+                    }
+                },
+                {
+                    "path" : "askBlogger/index",
+                    "style" : {
+                        "navigationBarTitleText" : "问博主",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "evaluate/index",
+                    "style" : {
+                        "navigationBarTitleText" : "评价列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "participants/index",
+                    "style" : {
+                        "navigationBarTitleText" : "活动参与者",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "report/index",
+                    "style" : {
+                        "navigationBarTitleText" : "举报"
+                    }
+                },
+                {
+                    "path" : "poster/index",
+                    "style" : {
+                        "navigationStyle" : "custom"
+                    }
+                },
+                {
+                    "path" : "activityRegistration/index",
+                    "style" : {
+                        "navigationBarTitleText" : "活动报名"
+                    }
+                },
+                {
+                    "path" : "exitActivity/index",
+                    "style" : {
+                        "navigationBarTitleText" : "退出活动"
+                    }
+                },
+                {
+                    "path" : "findPartner/index",
+                    "style" : {
+                        "navigationBarTitleText" : "立即找搭子"
+                    }
+                },
+                {
+                    "path" : "findPartner/seek",
+                    "style" : {
+                        "navigationStyle" : "custom"
+                    }
+                },
+                {
+                    "path" : "selectTemplate/index",
+                    "style" : {
+                        "navigationBarTitleText" : "选择模版"
+                    }
+                },
+                {
+                    "path" : "selectTemplate/filter",
+                    "style" : {
+                        "navigationBarTitleText" : "筛选"
+                    }
+                },
+                {
+                    "path" : "releaseActivity/index",
+                    "style" : {}
+                },
+                {
+                    "path" : "releaseActivity/success",
+                    "style" : {
+                        "navigationBarTitleText" : "发布成功"
+                    }
+                }
+            ]
+        },
+        {
+            "root" : "pagesProfile",
+            "name" : "pagesProfile",
+            "pages" : [
+                {
+                    "path" : "settings/index",
+                    "style" : {
+                        "navigationBarTitleText" : "编辑名片"
+                    }
+                }
+            ]
+        },
+        {
+            "root" : "pagesInfo",
+            "name" : "pagesInfo",
+            "pages" : [
+                {
+                    "path" : "messageDetails/index",
+                    "style" : {
+                        "navigationBarTitleText" : "消息详情"
+                    }
+                },
+                {
+                    "path" : "chat/index",
+                    "style" : {
+                        "navigationBarTitleText" : "活动"
+                    }
+                },
+                {
+                    "path" : "fileDetails/index",
+                    "style" : {
+                        "navigationBarTitleText" : ""
+                    }
+                }
+            ]
+        },
+        {
+            "root" : "pagesUser",
+            "name" : "pagesUser",
+            "pages" : [
+                {
+                    "path" : "login/index",
+                    "style" : {
+                        "navigationBarTitleText" : "登录"
+                    }
+                },
+                {
+                    "path" : "improveInfo/index",
+                    "style" : {
+                        "navigationBarTitleText" : "完善信息"
+                    }
+                },
+                {
+                    "path" : "basicInfo/index",
+                    "style" : {
+                        "navigationStyle" : "custom"
+                    }
+                },
+                {
+                    "path" : "follow/index",
+                    "style" : {
+                        "navigationBarTitleText" : "关注列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "fans/index",
+                    "style" : {
+                        "navigationBarTitleText" : "粉丝列表",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "purchaseMembership/index",
+                    "style" : {
+                        "navigationBarTitleText" : "购买会员"
+                    }
+                },
+                {
+                    "path" : "collection/index",
+                    "style" : {
+                        "navigationBarTitleText" : "我的收藏",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "income/index",
+                    "style" : {
+                        "navigationBarTitleText" : "我的收益",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "income/details",
+                    "style" : {
+                        "navigationBarTitleText" : "收益详情",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "income/cashOut",
+                    "style" : {
+                        "navigationBarTitleText" : "提现"
+                    }
+                },
+                {
+                    "path" : "income/success",
+                    "style" : {
+                        "navigationBarTitleText" : "申请成功"
+                    }
+                },
+                {
+                    "path" : "teamDetails/index",
+                    "style" : {
+                        "navigationBarTitleText" : "团队明细",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "couponCenter/index",
+                    "style" : {
+                        "navigationBarTitleText" : "卡券中心",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "setUp/index",
+                    "style" : {
+                        "navigationBarTitleText" : "设置"
+                    }
+                },
+                {
+                    "path" : "setUp/authentication",
+                    "style" : {
+                        "navigationBarTitleText" : "实名认证"
+                    }
+                },
+                {
+                    "path" : "enterPlatform/index",
+                    "style" : {
+                        "navigationStyle" : "custom"
+                    }
+                },
+                {
+                    "path" : "invite/index",
+                    "style" : {
+                        "navigationStyle" : "custom"
+                    }
+                },
+                {
+                    "path" : "invite/promotionRules",
+                    "style" : {
+                        "navigationBarTitleText" : "晋升规则"
+                    }
+                }
+            ]
+        }
+    ],
+    "tabBar" : {
+        "color" : "#CDCFCF",
+        "selectedColor" : "#F9475C",
+        "borderStyle" : "black",
+        "backgroundColor" : "#FFFFFF",
+        "height" : "50px",
+        "iconWidth" : "34px",
+        "list" : [
+            {
+                "pagePath" : "pages/home/index",
+                "iconPath" : "static/icon/home0.png",
+                "selectedIconPath" : "static/icon/home1.png",
+                "text" : ""
+            },
+            {
+                "pagePath" : "pages/profile/index",
+                "iconPath" : "static/icon/profile0.png",
+                "selectedIconPath" : "static/icon/profile1.png",
+                "text" : ""
+            },
+            {
+                "pagePath" : "pages/information/index",
+                "iconPath" : "static/icon/message0.png",
+                "selectedIconPath" : "static/icon/message1.png",
+                "text" : ""
+            },
+            {
+                "pagePath" : "pages/my/index",
+                "iconPath" : "static/icon/my0.png",
+                "selectedIconPath" : "static/icon/my1.png",
+                "text" : ""
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "搭火",
+        "navigationBarBackgroundColor" : "#FFFFFF",
+        "backgroundColor" : "#FFFFFF"
+    },
+    "uniIdRouter" : {},
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}

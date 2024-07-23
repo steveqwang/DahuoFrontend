@@ -5,7 +5,7 @@
 			<view>搭火小程序</view>
 			<text>从虚拟到现实 从屏幕到生活</text>
 			<button class="empower" :loading="loading" @click="handleLogin()" >
-				<image src="../static/icon/wx01.png" mode="aspectFit"></image>
+				<image src="../../static/icon/wechat.png" mode="aspectFit"></image>
 				<text>微信一键登录</text>
 			</button>
 		</view>

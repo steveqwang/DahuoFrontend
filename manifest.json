@@ -51,25 +51,24 @@
     /* 小程序特有相关 */
     "mp-weixin" : {
         "appid" : "wxdaedeb124c645db9",
-		 // 开启分包配置
-		"optimization" : {
-			"subPackages" : true
-		},
+        // 开启分包配置
+        "optimization" : {
+            "subPackages" : true
+        },
         "setting" : {
             "urlCheck" : false
         },
         "usingComponents" : true
-		// "lazyCodeLoading": "requiredComponents"
     },
-	// H5 特有相关 ：关闭 treeshaking 是为了规避 uni[methond]() is not a function 的问题
-	"h5" : {
-	    "optimization" : {
-	        "treeShaking" : {
-	            "enable" : false
-	        }
-	    }
-	},
-
+    // "lazyCodeLoading": "requiredComponents"
+    // H5 特有相关 ：关闭 treeshaking 是为了规避 uni[methond]() is not a function 的问题
+    "h5" : {
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : false
+            }
+        }
+    },
     "mp-alipay" : {
         "usingComponents" : true
     },

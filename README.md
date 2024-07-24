@@ -23,6 +23,7 @@ npm install
 ```
 
 ## Project Structure
+```
 BuildFire/
 ├── src/
 │   ├── assets/             # Static assets (images, fonts, etc.)
@@ -37,6 +38,7 @@ BuildFire/
 ├── .gitignore              # Git ignore file
 ├── package.json            # NPM package configuration
 └── README.md               # This file
+```
 
 ## Running the Project
 To run the project locally, use the following command:

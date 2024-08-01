@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "parse": "/components/u-parse/u-parse",
-    "loading-box": "/components/loading-box"
-  }
-}

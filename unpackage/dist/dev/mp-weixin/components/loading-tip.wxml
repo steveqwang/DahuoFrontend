@@ -1,1 +1,0 @@
-<block wx:if="{{visible}}"><view class="tip data-v-5f18a4c2"><block wx:if="{{status}}"><image src="../static/icon/loading01.png" mode="aspectFit" class="data-v-5f18a4c2"></image></block><text class="data-v-5f18a4c2">{{status?'加载中':'没有更多了～'}}</text></view></block>

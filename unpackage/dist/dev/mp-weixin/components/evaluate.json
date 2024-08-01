@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "u-popup": "/components/u-popup",
-    "info-row": "/components/info-row2"
-  }
-}

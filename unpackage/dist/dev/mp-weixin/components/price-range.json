@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "u-popup": "/components/u-popup",
-    "parse": "/components/u-parse/u-parse"
-  }
-}

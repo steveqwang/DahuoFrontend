@@ -178,11 +178,14 @@
 		justify-content: center;
 	}
 
-
-
 	.main {
+		width: 100%;
 		padding: 24rpx;
 		background: #F6F7F8;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center; /* 水平居中 */
 
 		.btn {
 			width: 244rpx;
@@ -209,10 +212,11 @@
 
 		.form-box {
 			background: #fff;
-			width: 702rpx;
+			width: 100%;
 			border-radius: 30rpx;
-			padding: 24rpx;
-			padding-bottom: 60rpx;
+			padding: 30rpx;
+			position: relative;
+			box-sizing: border-box;
 
 			.title {
 				font-family: Microsoft YaHei UI;
@@ -226,11 +230,12 @@
 			}
 
 			.type-link {
-				width: 654rpx;
+				width: 100%;
 				border: 1px solid #D8D8D8;
 				border-radius: 30rpx;
 				padding: 24rpx;
 				margin-top: 20rpx;
+				box-sizing: border-box;
 
 				.info-body {
 					.info-title {

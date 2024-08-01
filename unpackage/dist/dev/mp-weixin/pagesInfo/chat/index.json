@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "活动",
-  "usingComponents": {
-    "recording": "/pagesInfo/chat/recording",
-    "u-popup": "/components/u-popup",
-    "chat-popup": "/pagesInfo/chat/chat-popup"
-  }
-}

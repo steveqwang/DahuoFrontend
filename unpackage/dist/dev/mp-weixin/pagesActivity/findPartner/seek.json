@@ -1,7 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "u-mask": "/components/u-mask",
-    "loading-box": "/components/loading-box"
-  }
-}

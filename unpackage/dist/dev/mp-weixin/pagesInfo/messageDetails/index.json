@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "消息详情",
-  "usingComponents": {
-    "parse": "/components/u-parse/u-parse",
-    "loading-box": "/components/loading-box"
-  }
-}

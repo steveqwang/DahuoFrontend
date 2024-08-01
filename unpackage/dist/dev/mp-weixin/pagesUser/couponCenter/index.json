@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "卡券中心",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "empty": "/components/empty",
-    "loading-box": "/components/loading-box",
-    "loading-tip": "/components/loading-tip"
-  }
-}

@@ -1,1 +1,0 @@
-<view class="{{['empty','data-v-392aa2a2',type]}}" style="{{'--padding-top:'+(pTop)+';'+('--padding-bottom:'+(pBottom)+';')}}"><image src="/static/img/empty01.png" mode="aspectFit" class="data-v-392aa2a2"></image><view class="text data-v-392aa2a2">{{text}}</view></view>

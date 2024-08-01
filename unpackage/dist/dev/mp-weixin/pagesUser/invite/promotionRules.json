@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "晋升规则",
-  "usingComponents": {
-    "loading-box": "/components/loading-box",
-    "parse": "/components/u-parse/u-parse"
-  }
-}

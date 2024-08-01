@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "购买会员",
-  "usingComponents": {
-    "parse": "/components/u-parse/u-parse"
-  }
-}

@@ -101,7 +101,7 @@ var components
 try {
   components = {
     uniCalendar: function () {
-      return Promise.all(/*! import() | components/uni-calendar/uni-calendar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-calendar/uni-calendar")]).then(__webpack_require__.bind(null, /*! @/components/uni-calendar/uni-calendar.vue */ 399))
+      return Promise.all(/*! import() | components/uni-calendar/uni-calendar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-calendar/uni-calendar")]).then(__webpack_require__.bind(null, /*! @/components/uni-calendar/uni-calendar.vue */ 429))
     },
   }
 } catch (e) {
@@ -209,17 +209,17 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 var formRow = function formRow() {
   Promise.all(/*! require.ensure | pagesActivity/components/form-row */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pagesActivity/components/form-row")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/form-row.vue */ 548));
+    return resolve(__webpack_require__(/*! ../components/form-row.vue */ 578));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var formBox = function formBox() {
   Promise.all(/*! require.ensure | pagesActivity/components/form-box */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pagesActivity/components/form-box")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/form-box.vue */ 555));
+    return resolve(__webpack_require__(/*! ../components/form-box.vue */ 585));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var sliderBox = function sliderBox() {
   __webpack_require__.e(/*! require.ensure | pagesActivity/components/slider-box */ "pagesActivity/components/slider-box").then((function () {
-    return resolve(__webpack_require__(/*! ../components/slider-box.vue */ 602));
+    return resolve(__webpack_require__(/*! ../components/slider-box.vue */ 632));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

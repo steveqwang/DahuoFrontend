@@ -38,7 +38,8 @@
 
 
 /*每个页面公共css */
-/* 公共样式 */
+/* 公共样式
+ */
 page{
 		background: #F6F6F6;
 		font-size: 24rpx;
@@ -62,7 +63,8 @@ button::after{
 }
 .placeholder{
 		font-size: 30rpx;
-		/* font-family: PingFangSC-Medium; */
+		/* font-family: PingFangSC-Medium;
+ */
 		text-align: left;
 		color: #999999;
 		line-height: 42rpx;

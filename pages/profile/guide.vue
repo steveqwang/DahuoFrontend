@@ -77,10 +77,10 @@
 				return urlToBase64(folder, file)
 			},
 			openSettings() {
-				uni.navigateTo({
-					url: '/pagesProfile/settings/index'
-				});
-			}
+			    uni.navigateTo({
+			        url: '/pagesProfile/settings/index'
+			    });
+			},
 		}
 	}
 </script>

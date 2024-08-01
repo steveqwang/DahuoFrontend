@@ -31,7 +31,7 @@
 						<video v-else-if="it.type=='video'" class="video" :src="it.file.url" />
 						<view class="audio" v-else-if="it.type == 'audio'" :style="{width: getRadioWidth(it.file.dur)}"
 							@click="playRadioMsg(it.file.url)">
-							<image src="../static/img/speaker_icon.png" mode=""></image>
+							<image src="../../static/img/speaker_icon.png" mode=""></image>
 							<text>{{it.file.dur | lenRadio}}</text>
 						</view>
 					</view>

@@ -141,12 +141,31 @@
             "root" : "pagesProfile",
             "name" : "pagesProfile",
             "pages" : [
+				
+				{
+				    "path" : "editSocialMedia/index",
+				    "style" : {
+				        "navigationBarTitleText" : "编辑社交媒体"
+				    }
+				},
                 {
                     "path" : "settings/index",
                     "style" : {
                         "navigationBarTitleText" : "编辑名片"
                     }
-                }
+                },
+				{
+				    "path" : "addLink/index",
+				    "style" : {
+				        "navigationBarTitleText" : "添加链接"
+				    }
+				},
+				{
+				    "path" : "editLink/index",
+				    "style" : {
+				        "navigationBarTitleText" : "编辑链接"
+				    }
+				}
             ]
         },
         {

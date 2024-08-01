@@ -146,27 +146,27 @@ var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 49));
 var lPainter = function lPainter() {
   Promise.all(/*! require.ensure | pagesActivity/components/lime-painter/components/l-painter/l-painter */[__webpack_require__.e("pagesActivity/common/vendor"), __webpack_require__.e("pagesActivity/components/lime-painter/components/l-painter/l-painter")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter/l-painter.vue */ 562));
+    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter/l-painter.vue */ 592));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var lPainterImage = function lPainterImage() {
   Promise.all(/*! require.ensure | pagesActivity/components/lime-painter/components/l-painter-image/l-painter-image */[__webpack_require__.e("pagesActivity/common/vendor"), __webpack_require__.e("pagesActivity/components/lime-painter/components/l-painter-image/l-painter-image")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter-image/l-painter-image.vue */ 573));
+    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter-image/l-painter-image.vue */ 603));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var lPainterText = function lPainterText() {
   Promise.all(/*! require.ensure | pagesActivity/components/lime-painter/components/l-painter-text/l-painter-text */[__webpack_require__.e("pagesActivity/common/vendor"), __webpack_require__.e("pagesActivity/components/lime-painter/components/l-painter-text/l-painter-text")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter-text/l-painter-text.vue */ 578));
+    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter-text/l-painter-text.vue */ 608));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var lPainterView = function lPainterView() {
   Promise.all(/*! require.ensure | pagesActivity/components/lime-painter/components/l-painter-view/l-painter-view */[__webpack_require__.e("pagesActivity/common/vendor"), __webpack_require__.e("pagesActivity/components/lime-painter/components/l-painter-view/l-painter-view")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter-view/l-painter-view.vue */ 583));
+    return resolve(__webpack_require__(/*! ../components/lime-painter/components/l-painter-view/l-painter-view.vue */ 613));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var loadingBox = function loadingBox() {
   __webpack_require__.e(/*! require.ensure | components/loading-box */ "components/loading-box").then((function () {
-    return resolve(__webpack_require__(/*! @/components/loading-box.vue */ 433));
+    return resolve(__webpack_require__(/*! @/components/loading-box.vue */ 463));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

@@ -31,7 +31,10 @@
     {
       "root": "pagesProfile",
       "pages": [
-        "settings/index"
+        "editSocialMedia/index",
+        "settings/index",
+        "addLink/index",
+        "editLink/index"
       ],
       "name": "pagesProfile"
     },

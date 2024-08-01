@@ -198,7 +198,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM
 
 /***/ }),
 
-/***/ 523:
+/***/ 553:
 /*!*****************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/icon/features01.png ***!
   \*****************************************************************************************/
@@ -209,7 +209,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 524:
+/***/ 554:
 /*!*****************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/icon/features02.png ***!
   \*****************************************************************************************/
@@ -220,7 +220,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 525:
+/***/ 555:
 /*!*****************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/icon/features03.png ***!
   \*****************************************************************************************/
@@ -231,7 +231,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 526:
+/***/ 556:
 /*!*****************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/icon/features04.png ***!
   \*****************************************************************************************/
@@ -242,7 +242,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 527:
+/***/ 557:
 /*!*****************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/icon/features05.png ***!
   \*****************************************************************************************/
@@ -253,7 +253,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 528:
+/***/ 558:
 /*!*****************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/icon/features06.png ***!
   \*****************************************************************************************/
@@ -264,7 +264,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 536:
+/***/ 566:
 /*!*************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/img/share01.png ***!
   \*************************************************************************************/
@@ -275,7 +275,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 537:
+/***/ 567:
 /*!*************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/img/share02.png ***!
   \*************************************************************************************/
@@ -286,7 +286,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 538:
+/***/ 568:
 /*!*************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/static/img/share03.png ***!
   \*************************************************************************************/
@@ -297,7 +297,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw
 
 /***/ }),
 
-/***/ 567:
+/***/ 597:
 /*!********************************************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/components/lime-painter/components/common/relation.js ***!
   \********************************************************************************************************************/
@@ -469,7 +469,7 @@ function children(parent) {
 
 /***/ }),
 
-/***/ 568:
+/***/ 598:
 /*!********************************************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/components/lime-painter/components/l-painter/props.js ***!
   \********************************************************************************************************************/
@@ -528,7 +528,7 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 569:
+/***/ 599:
 /*!********************************************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/components/lime-painter/components/l-painter/utils.js ***!
   \********************************************************************************************************************/
@@ -818,7 +818,7 @@ function getImageInfo(path, useCORS) {
 
 /***/ }),
 
-/***/ 570:
+/***/ 600:
 /*!**********************************************************************************************************************!*\
   !*** /Users/steveqwang/Desktop/code/BuildFire/pagesActivity/components/lime-painter/components/l-painter/painter.js ***!
   \**********************************************************************************************************************/

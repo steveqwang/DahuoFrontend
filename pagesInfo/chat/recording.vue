@@ -1,7 +1,7 @@
 <template>
 	<view class="recording">
 		<view class="recording-box">
-			<image src="../static/img/radio_loading.gif" mode=""></image>
+			<image src="../../static/img/radio_loading.gif" mode=""></image>
 			<text>正在录音</text>
 		</view>
 	</view>

@@ -155,17 +155,17 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 var formRow = function formRow() {
   Promise.all(/*! require.ensure | pagesActivity/components/form-row */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pagesActivity/components/form-row")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/form-row.vue */ 548));
+    return resolve(__webpack_require__(/*! ../components/form-row.vue */ 578));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var formBox = function formBox() {
   Promise.all(/*! require.ensure | pagesActivity/components/form-box */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pagesActivity/components/form-box")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/form-box.vue */ 555));
+    return resolve(__webpack_require__(/*! ../components/form-box.vue */ 585));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var joinedSuccessfully = function joinedSuccessfully() {
   Promise.all(/*! require.ensure | pagesActivity/components/joined-successfully */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pagesActivity/components/joined-successfully")]).then((function () {
-    return resolve(__webpack_require__(/*! ../components/joined-successfully.vue */ 588));
+    return resolve(__webpack_require__(/*! ../components/joined-successfully.vue */ 618));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

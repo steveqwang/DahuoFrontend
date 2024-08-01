@@ -101,7 +101,7 @@
 				<view class="particulars-box">
 					<view class="title">
 						<view class="title-left">
-							<image src="../static/img/title01.png" mode="scaleToFill"></image>
+							<image src="../../static/img/title01.png" mode="scaleToFill"></image>
 							<text>活动简介</text>
 						</view>
 					</view>
@@ -122,7 +122,7 @@
 				<view class="particulars-box" v-if="info.issue && info.issue.length">
 					<view class="title">
 						<view class="title-left">
-							<image src="../static/img/title01.png" mode="scaleToFill"></image>
+							<image src="../../static/img/title01.png" mode="scaleToFill"></image>
 							<text>问博主</text>
 						</view>
 						<view class="title-right" @click="handleJump('/pagesActivity/askBlogger/index')">
@@ -141,7 +141,7 @@
 				<view class="particulars-box" v-if="info.evaluate && info.evaluate.length">
 					<view class="title">
 						<view class="title-left">
-							<image src="../static/img/title01.png" mode="scaleToFill"></image>
+							<image src="../../static/img/title01.png" mode="scaleToFill"></image>
 							<text>活动评价</text>
 						</view>
 						<view class="title-right" @click="handleJump('/pagesActivity/evaluate/index')">
@@ -156,7 +156,7 @@
 			</view>
 			<view class="recommend" v-if="params.status != 'preview'">
 				<view class="title">
-					<image src="../static/image/title01.png" mode="scaleToFill"></image>
+					<image src="../../static/image/title01.png" mode="scaleToFill"></image>
 					<text>推荐活动</text>
 				</view>
 				<template v-if="recommend && recommend.length">
